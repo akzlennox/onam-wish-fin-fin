@@ -13,16 +13,12 @@
   <div class="frame"><img src="assets/saree-onam.png" alt="Saree Onam photo"><div class="caption">pattu pavada la azhagi 😍</div></div>
 </div>
 <a class="btn" href="note.html">NEXT UH  ✨</a>
-<audio id="bgMusic" loop>
-  <source src="music.mp3" type="audio/mpeg">
+<audio id="bgMusic" preload="auto">
+  <source src="assets/music.mp3" type="audio/mpeg">
 </audio>
 
-<button onclick="playMusic()">🎵 Unakku pudicha paatu</button>
-
-<script>
-function playMusic() {
-  document.getElementById("bgMusic").play();
-}
-</script>
+<button onclick="document.getElementById('bgMusic').play()">
+  🎵 Unakku pudicha paatu
+</button>
 <div class="footer">ONAM • 2K26</div>
 </main></section><script src="script.js"></script></body></html>
